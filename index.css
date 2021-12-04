@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Handlee', cursive;
+    margin: 0;
+    padding: 0;
+}
+/*#head-part{
+  background-image: url(img/gorgeous-young-sports-lady-standing-listening-music.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+*/
+.nav-link{
+    color: #0C1451;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 1.2;
+    transition: .25s;
+}
+nav{
+    background: #F4F4F4;
+}
+
+.head-title{
+    margin-left: 7%;
+    position: absolute;
+    margin-top: 300px;
+}
+.head-title h1{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Handlee', cursive;
+    box-shadow: 7px 14px 13px -6px #312d22;
+    color: rgb(50, 30, 64);
+}
+.btn{
+    margin: auto;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: #ffa8a8;
+    border: none;
+    color: #0C1451;
+}
+.head-img{
+    margin-left: 60px;
+    margin-top: 10%;
+}
+.about-title{
+    margin-left: 5%;
+}
+.about-title h1{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Handlee', cursive;
+}
+.about-title p{
+    font-family: 'Handlee', cursive;
+}
+.about-img{
+    margin-left: 60px;
+}
+
+.card{
+    width: 80%;
+    border: 1px solid;
+    box-shadow:  5px 10px 7px #121212;
+    border-radius: 10px;
+    margin:0 10%;
+}
+.card-head{
+    display: flex;
+}
+.card-head .title{
+    flex-grow: 1;
+}
+.blockquote p{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.fa-2x{
+    color: #ffa8a8;
+}
+.members img{
+    width: 200px;
+    height: 450px;
+    background-attachment: fixed;
+}
+.carousel-item img{
+    width: 200px;
+    height: auto;
+}
+.card img{
+    height: 400px;
+}
